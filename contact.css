@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: serif;
+}
+
+.logo-img{
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.text-info {
+    margin-top: 3%;
+}
+
+.text-info i {
+    color: rgb(204, 154, 26);
+    padding: 10px;
+    font-size: x-large;
+    margin-top: -5px;
+}
+
+.text-info b {
+    color: black;
+    cursor: pointer;
+}
+
+.text-info p {
+    color: gray;
+}
+
+.header {
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #cca772;
+
+}
+
+.nav-icons {
+    color: gray;
+    padding: 20px;
+}
+
+.nav-icons i:hover {
+    cursor: pointer;
+    color: #cca772;
+    transition: .5s ease;
+}
+
+.main-section {
+    height: 85vh;
+    background: linear-gradient(rgba(12, 12, 12, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-bg.jpg);
+    object-fit: cover;
+    color: white;
+    text-align: center;
+}
+
+.main-section h2 {
+    font-size: 20px;
+    
+}
+
+.main-section h1 {
+    font-size: 6vw;
+    font-weight: 800;
+    padding-top: 13%;
+}
+.main-section h6{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.main-button {
+    color: white;
+    background: transparent;
+    border: 2px solid #cca772;
+    padding: 15px;
+    width: 200px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.main-button:hover{
+    background-color: #cca772;
+}
+
+.contact-section{
+margin-top: 50px;
+}
+.hh{
+font-size: 30px;
+margin-bottom: 20px;
+}
+.image{
+min-width: 600px;
+min-height: 400px;
+padding-left: 10%;
+}
+.ah{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.ah:hover{
+    color: white;
+}
+.hh{
+    text-align: center;
+}
+.bed-icons{
+    align-items: center;
+    padding-left: 47.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #d4af8c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c39c7b;
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+    }
+
+    .contact-info, .contact-form {
+        width: 45%;
+    }
+}
+
+@media(max-width:1103px){
+.image{
+    display: none;
+}
+.hh{
+    text-align: center;
+}
+.bed-icons{
+    align-items: center;
+    padding-left: 43%;
+   
+}
+
+
+}
+.footer{
+    background:  #0b1a2a;;
+}
+.footer p{
+font-family: sans-serif;
+color: gray;
+}
+.footer h2{
+    margin-bottom: 20px;
+}
+span{
+    color: #cca772;
+}
+.foo-icon i{
+    padding: 10px;
+    background-color: #384a5e;
+    color: white;
+}
+.foo-icon i:hover{
+    cursor: pointer;
+    background-color: #cca772;
+    transition: .5s ease;
+}
+.foo-input input{
+background-color: rgb(58, 56, 56);
+width: 60%;
+border: none;
+height: 50px;
+}
+.foo-input button{
+    background-color: #cca772;
+    color: white;
+    border: none;
+    margin-left: -7%;
+    padding: 5px;
+    width: 120px;
+}
+@media (max-width:450px) {
+    
+    .footer{
+        background-color:  #4b5068;;
+    }
+ 
+    .f-section section {
+        width: 100%;
+        height: auto;
+    }
+
+  
+}
